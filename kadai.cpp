@@ -2,28 +2,30 @@
 
 class Calculator{
     public:
-        double add(double x, double y);
-        double sub(double x, double y);
-        double mul(double x, double y);
-        double div(double x, double y);
+        double a;
+        double b;
+        double add();
+        double sub();
+        double mul();
+        double div();
 };
 
-double Calculator::add(double x, double y)
+double Calculator::add()
     {
-        return x + y;
+        return a + b;
     }
 
-double Calculator::sub(double x, double y)
+double Calculator::sub()
     {
-        return x - y;
+        return a - b;
     }
 
-double Calculator::mul(double x, double y)
+double Calculator::mul()
     {
-        return x * y;
+        return a * b;
     }
 
-double Calculator::sub(double x, double y)
+double Calculator::sub()
     {
-        return x / y;
+        return a / b;
     }
