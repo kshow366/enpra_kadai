@@ -22,3 +22,8 @@ double Calculator::mul(double x, double y)
     {
         return x * y;
     }
+
+double Calculator::sub(double x, double y)
+    {
+        return x / y;
+    }
