@@ -8,3 +8,7 @@ class Calculator{
         double div(double x, double y);
 };
 
+double Calculator::add(double x, double y)
+    {
+        return x + y;
+    }
